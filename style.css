@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#top-section{
+  background-image: url(images/top\ hader.jpg);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 550px;
+}
+
+.main-div{
+    background-image: linear-gradient(#7d7d7d00, #020202e8);
+    height: 550px;
+}
+
+.top-hading{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.top-hading h1{
+  font-size: 40px;
+  padding-top: 130px;
+}
+
+.top-hading p{
+  font-size: 13px;
+  padding:20px 80px 30px 80px;
+}
+
+.top-hading a{
+  text-decoration: none;
+  color: white;
+  background-color: #FF5959;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.donate-tk ul{
+ list-style: none;
+}
+.donate-tk ul li{
+  padding: 20px;
+  margin: 10px;
+  background: #d3d3d334;
+  display: flex;
+  display: inline-block;
+  margin-bottom: 40px;
+  font-weight: 900;
+}
+
+#form-tag hr{
+  margin-bottom: 40px;
+  border: 0.01px solid rgba(136, 136, 136, 0.265);
+}
+
+#form-tag input{
+padding: 0px 200px;
+border: none;
+}
+
+#click-tk{
+  border: 2px solid #FF5959;
+  color: #FF5959;
+  background: #ff59591f;
+}
+
+.our-plan{
+  width: 900px;
+  margin: auto;
+}
+
+.prend-plan{
+  display: flex;
+}
+
+.chaldern-plan{
+  width: 250px;
+  padding: 45px 25px;
+  margin: 0px 15px;
+}
+
+.chaldern-plan p{
+  font-size: 13px;
+}
+.chaldern-plan h3{
+  font-weight: 800;
+  margin: 15px 0px;
+}
+
+#food-id{
+  background-color: rgba(79, 157, 166, 0.1);
+}
+
+#shelter-id{
+  background-color: rgba(255, 89, 89, 0.1) ;
+}
+
+#education-id{
+  background-color:rgba(255, 244, 214, 1) ;
+}
+
+.email-section{
+  background-color: #FFF4D6;
+  padding: 50px 100px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-section input{
+  padding: 6px 20px;
+  border: none;
+  background-color: 
+  #D9D9D9;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.email-section button{
+  color: white;
+  background-color: 
+  #FF5959;
+  border: 0px;
+  padding: 6px 20px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.footer-section{
+  background-color: black;
+  text-align: center;
+}
+
+.footer-section p{
+  color: white;
+  padding-bottom: 30px;
+  font-size: 12px;
+}
+
+.footer-section h1{
+  color: #FF5959;
+  padding: 30px 0px;
+  font-family: cursive;
+}
+
+.non-profit{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.non-profit-child{
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.non-profit-child img{
+  width: 70%;
+}
+.non-profit-child h1{
+  font-size: 35px;
+}
